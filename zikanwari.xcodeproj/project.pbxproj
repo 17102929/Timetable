@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		976B135D18F0D35C006CFC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976B135C18F0D35C006CFC41 /* Foundation.framework */; };
+		976B135F18F0D35C006CFC41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976B135E18F0D35C006CFC41 /* CoreGraphics.framework */; };
+		976B136118F0D35C006CFC41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976B136018F0D35C006CFC41 /* UIKit.framework */; };
+		976B136718F0D35C006CFC41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 976B136518F0D35C006CFC41 /* InfoPlist.strings */; };
+		976B136918F0D35C006CFC41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 976B136818F0D35C006CFC41 /* main.m */; };
+		976B136D18F0D35C006CFC41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 976B136C18F0D35C006CFC41 /* AppDelegate.m */; };
+		976B137018F0D35C006CFC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976B136E18F0D35C006CFC41 /* Main.storyboard */; };
+		976B137318F0D35C006CFC41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 976B137218F0D35C006CFC41 /* ViewController.m */; };
+		976B137518F0D35C006CFC41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976B137418F0D35C006CFC41 /* Images.xcassets */; };
+		976B137C18F0D35C006CFC41 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976B137B18F0D35C006CFC41 /* XCTest.framework */; };
+		976B137D18F0D35C006CFC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976B135C18F0D35C006CFC41 /* Foundation.framework */; };
+		976B137E18F0D35C006CFC41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976B136018F0D35C006CFC41 /* UIKit.framework */; };
+		976B138618F0D35C006CFC41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 976B138418F0D35C006CFC41 /* InfoPlist.strings */; };
+		976B138818F0D35C006CFC41 /* zikanwariTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 976B138718F0D35C006CFC41 /* zikanwariTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		976B137F18F0D35C006CFC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 976B135118F0D35C006CFC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 976B135818F0D35C006CFC41;
+			remoteInfo = zikanwari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		976B135918F0D35C006CFC41 /* zikanwari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zikanwari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		976B135C18F0D35C006CFC41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		976B135E18F0D35C006CFC41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		976B136018F0D35C006CFC41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		976B136418F0D35C006CFC41 /* zikanwari-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zikanwari-Info.plist"; sourceTree = "<group>"; };
+		976B136618F0D35C006CFC41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		976B136818F0D35C006CFC41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		976B136A18F0D35C006CFC41 /* zikanwari-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zikanwari-Prefix.pch"; sourceTree = "<group>"; };
+		976B136B18F0D35C006CFC41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		976B136C18F0D35C006CFC41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		976B136F18F0D35C006CFC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		976B137118F0D35C006CFC41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		976B137218F0D35C006CFC41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		976B137418F0D35C006CFC41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		976B137A18F0D35C006CFC41 /* zikanwariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zikanwariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		976B137B18F0D35C006CFC41 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		976B138318F0D35C006CFC41 /* zikanwariTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zikanwariTests-Info.plist"; sourceTree = "<group>"; };
+		976B138518F0D35C006CFC41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		976B138718F0D35C006CFC41 /* zikanwariTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zikanwariTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		976B135618F0D35C006CFC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976B135F18F0D35C006CFC41 /* CoreGraphics.framework in Frameworks */,
+				976B136118F0D35C006CFC41 /* UIKit.framework in Frameworks */,
+				976B135D18F0D35C006CFC41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976B137718F0D35C006CFC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976B137C18F0D35C006CFC41 /* XCTest.framework in Frameworks */,
+				976B137E18F0D35C006CFC41 /* UIKit.framework in Frameworks */,
+				976B137D18F0D35C006CFC41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		976B135018F0D35C006CFC41 = {
+			isa = PBXGroup;
+			children = (
+				976B136218F0D35C006CFC41 /* zikanwari */,
+				976B138118F0D35C006CFC41 /* zikanwariTests */,
+				976B135B18F0D35C006CFC41 /* Frameworks */,
+				976B135A18F0D35C006CFC41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		976B135A18F0D35C006CFC41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				976B135918F0D35C006CFC41 /* zikanwari.app */,
+				976B137A18F0D35C006CFC41 /* zikanwariTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		976B135B18F0D35C006CFC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				976B135C18F0D35C006CFC41 /* Foundation.framework */,
+				976B135E18F0D35C006CFC41 /* CoreGraphics.framework */,
+				976B136018F0D35C006CFC41 /* UIKit.framework */,
+				976B137B18F0D35C006CFC41 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		976B136218F0D35C006CFC41 /* zikanwari */ = {
+			isa = PBXGroup;
+			children = (
+				976B136B18F0D35C006CFC41 /* AppDelegate.h */,
+				976B136C18F0D35C006CFC41 /* AppDelegate.m */,
+				976B136E18F0D35C006CFC41 /* Main.storyboard */,
+				976B137118F0D35C006CFC41 /* ViewController.h */,
+				976B137218F0D35C006CFC41 /* ViewController.m */,
+				976B137418F0D35C006CFC41 /* Images.xcassets */,
+				976B136318F0D35C006CFC41 /* Supporting Files */,
+			);
+			path = zikanwari;
+			sourceTree = "<group>";
+		};
+		976B136318F0D35C006CFC41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				976B136418F0D35C006CFC41 /* zikanwari-Info.plist */,
+				976B136518F0D35C006CFC41 /* InfoPlist.strings */,
+				976B136818F0D35C006CFC41 /* main.m */,
+				976B136A18F0D35C006CFC41 /* zikanwari-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		976B138118F0D35C006CFC41 /* zikanwariTests */ = {
+			isa = PBXGroup;
+			children = (
+				976B138718F0D35C006CFC41 /* zikanwariTests.m */,
+				976B138218F0D35C006CFC41 /* Supporting Files */,
+			);
+			path = zikanwariTests;
+			sourceTree = "<group>";
+		};
+		976B138218F0D35C006CFC41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				976B138318F0D35C006CFC41 /* zikanwariTests-Info.plist */,
+				976B138418F0D35C006CFC41 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		976B135818F0D35C006CFC41 /* zikanwari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976B138B18F0D35C006CFC41 /* Build configuration list for PBXNativeTarget "zikanwari" */;
+			buildPhases = (
+				976B135518F0D35C006CFC41 /* Sources */,
+				976B135618F0D35C006CFC41 /* Frameworks */,
+				976B135718F0D35C006CFC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zikanwari;
+			productName = zikanwari;
+			productReference = 976B135918F0D35C006CFC41 /* zikanwari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		976B137918F0D35C006CFC41 /* zikanwariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976B138E18F0D35C006CFC41 /* Build configuration list for PBXNativeTarget "zikanwariTests" */;
+			buildPhases = (
+				976B137618F0D35C006CFC41 /* Sources */,
+				976B137718F0D35C006CFC41 /* Frameworks */,
+				976B137818F0D35C006CFC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				976B138018F0D35C006CFC41 /* PBXTargetDependency */,
+			);
+			name = zikanwariTests;
+			productName = zikanwariTests;
+			productReference = 976B137A18F0D35C006CFC41 /* zikanwariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		976B135118F0D35C006CFC41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sora Mizuno";
+				TargetAttributes = {
+					976B137918F0D35C006CFC41 = {
+						TestTargetID = 976B135818F0D35C006CFC41;
+					};
+				};
+			};
+			buildConfigurationList = 976B135418F0D35C006CFC41 /* Build configuration list for PBXProject "zikanwari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 976B135018F0D35C006CFC41;
+			productRefGroup = 976B135A18F0D35C006CFC41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				976B135818F0D35C006CFC41 /* zikanwari */,
+				976B137918F0D35C006CFC41 /* zikanwariTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		976B135718F0D35C006CFC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976B137518F0D35C006CFC41 /* Images.xcassets in Resources */,
+				976B136718F0D35C006CFC41 /* InfoPlist.strings in Resources */,
+				976B137018F0D35C006CFC41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976B137818F0D35C006CFC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976B138618F0D35C006CFC41 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		976B135518F0D35C006CFC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976B137318F0D35C006CFC41 /* ViewController.m in Sources */,
+				976B136D18F0D35C006CFC41 /* AppDelegate.m in Sources */,
+				976B136918F0D35C006CFC41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976B137618F0D35C006CFC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976B138818F0D35C006CFC41 /* zikanwariTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		976B138018F0D35C006CFC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 976B135818F0D35C006CFC41 /* zikanwari */;
+			targetProxy = 976B137F18F0D35C006CFC41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		976B136518F0D35C006CFC41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				976B136618F0D35C006CFC41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		976B136E18F0D35C006CFC41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				976B136F18F0D35C006CFC41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		976B138418F0D35C006CFC41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				976B138518F0D35C006CFC41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		976B138918F0D35C006CFC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		976B138A18F0D35C006CFC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		976B138C18F0D35C006CFC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zikanwari/zikanwari-Prefix.pch";
+				INFOPLIST_FILE = "zikanwari/zikanwari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		976B138D18F0D35C006CFC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zikanwari/zikanwari-Prefix.pch";
+				INFOPLIST_FILE = "zikanwari/zikanwari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		976B138F18F0D35C006CFC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zikanwari.app/zikanwari";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zikanwari/zikanwari-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "zikanwariTests/zikanwariTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		976B139018F0D35C006CFC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zikanwari.app/zikanwari";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zikanwari/zikanwari-Prefix.pch";
+				INFOPLIST_FILE = "zikanwariTests/zikanwariTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		976B135418F0D35C006CFC41 /* Build configuration list for PBXProject "zikanwari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976B138918F0D35C006CFC41 /* Debug */,
+				976B138A18F0D35C006CFC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976B138B18F0D35C006CFC41 /* Build configuration list for PBXNativeTarget "zikanwari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976B138C18F0D35C006CFC41 /* Debug */,
+				976B138D18F0D35C006CFC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		976B138E18F0D35C006CFC41 /* Build configuration list for PBXNativeTarget "zikanwariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976B138F18F0D35C006CFC41 /* Debug */,
+				976B139018F0D35C006CFC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 976B135118F0D35C006CFC41 /* Project object */;
+}
