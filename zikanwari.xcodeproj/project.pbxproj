@@ -21,6 +21,7 @@
 		976B137E18F0D35C006CFC41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976B136018F0D35C006CFC41 /* UIKit.framework */; };
 		976B138618F0D35C006CFC41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 976B138418F0D35C006CFC41 /* InfoPlist.strings */; };
 		976B138818F0D35C006CFC41 /* zikanwariTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 976B138718F0D35C006CFC41 /* zikanwariTests.m */; };
+		976BBBEA1904BB9600259FBC /* 時間割土入り.png in Resources */ = {isa = PBXBuildFile; fileRef = 976BBBE91904BB9600259FBC /* 時間割土入り.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		976B138318F0D35C006CFC41 /* zikanwariTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zikanwariTests-Info.plist"; sourceTree = "<group>"; };
 		976B138518F0D35C006CFC41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		976B138718F0D35C006CFC41 /* zikanwariTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zikanwariTests.m; sourceTree = "<group>"; };
+		976BBBE91904BB9600259FBC /* 時間割土入り.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "時間割土入り.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				976B136B18F0D35C006CFC41 /* AppDelegate.h */,
 				976B136C18F0D35C006CFC41 /* AppDelegate.m */,
 				976B136E18F0D35C006CFC41 /* Main.storyboard */,
+				976BBBE91904BB9600259FBC /* 時間割土入り.png */,
 				976B137118F0D35C006CFC41 /* ViewController.h */,
 				976B137218F0D35C006CFC41 /* ViewController.m */,
 				976B137418F0D35C006CFC41 /* Images.xcassets */,
@@ -196,7 +199,7 @@
 		976B135118F0D35C006CFC41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Sora Mizuno";
 				TargetAttributes = {
 					976B137918F0D35C006CFC41 = {
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				976B137518F0D35C006CFC41 /* Images.xcassets in Resources */,
+				976BBBEA1904BB9600259FBC /* 時間割土入り.png in Resources */,
 				976B136718F0D35C006CFC41 /* InfoPlist.strings in Resources */,
 				976B137018F0D35C006CFC41 /* Main.storyboard in Resources */,
 			);
@@ -305,7 +309,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +347,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,7 +404,6 @@
 		976B138F18F0D35C006CFC41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zikanwari.app/zikanwari";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +426,6 @@
 		976B139018F0D35C006CFC41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/zikanwari.app/zikanwari";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +460,7 @@
 				976B138D18F0D35C006CFC41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		976B138E18F0D35C006CFC41 /* Build configuration list for PBXNativeTarget "zikanwariTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				976B139018F0D35C006CFC41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
