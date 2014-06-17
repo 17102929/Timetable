@@ -639,6 +639,7 @@ notify.alertAction = @"起動";
     
     
     if(weekday == 2 ){//とりま実験用です、頑張ろしんどいのは分かるぜ
+        //んー...。とりあえず下にあるサイトを見てみようと思いますが...予定かなり遅れてるんですよ、どうすればいいんでしょうか、学校の課題とかなんやらあるんだし、こっちも想い通りにいかなくて日常壊れそう、アプリ甲子園までに間に合う気がしなさすぎて怖いです。
         if(now == itizikanme.date){
            UILocalNotification *notice = [[UILocalNotification alloc] init];
             notice.alertBody = @"アラートボタン１番です";
