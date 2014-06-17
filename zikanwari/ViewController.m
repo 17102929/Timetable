@@ -638,7 +638,7 @@ notify.alertAction = @"起動";
     NSLog(@"%d" , weekday);
     
     
-    if(weekday == 2 ){//とりま実験用
+    if(weekday == 2 ){//とりま実験用です
         if(now == itizikanme.date){
            UILocalNotification *notice = [[UILocalNotification alloc] init];
             notice.alertBody = @"アラートボタン１番です";
